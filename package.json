@@ -4,7 +4,7 @@
   "description": "Run a subprocess as though you had typed it into the shell.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Output from shell:\"; grep --color=auto \"function (\" *.js; node test.js"
   },
   "author": "http://github.com/davidmason",
   "license": "ISC"
