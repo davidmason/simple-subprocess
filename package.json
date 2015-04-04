@@ -1,11 +1,19 @@
 {
   "name": "simple-subprocess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run a subprocess as though you had typed it into the shell.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Output from shell:\"; grep --color=auto \"function (\" *.js; node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmason/simple-subprocess.git"
+  },
   "author": "http://github.com/davidmason",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmason/simple-subprocess/issues"
+  },
+  "homepage": "https://github.com/davidmason/simple-subprocess"
 }
