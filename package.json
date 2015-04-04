@@ -1,0 +1,11 @@
+{
+  "name": "simple-subprocess",
+  "version": "1.0.0",
+  "description": "Run a subprocess as though you had typed it into the shell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "http://github.com/davidmason",
+  "license": "ISC"
+}
